@@ -1,0 +1,81 @@
+강민정 강사
+pl_best@naver.com
+
+컴파일러 / 인터프린터
+>>> 쉘 
+type(),type(Ture),type(False)
+파이썬에서는 double, a++ 없음
+int,float,str,bool
+문자열 'a', "a", '''a''', """a"""
++-*/, //, %, +=
+= 대입연산자 오른쪽을 왼쪽에
++= 복합대입연산자
+print(10,'hi') 쉼표로 구분
+@@@ print("출력{}싶은{}내용".format(a,b))
+print("{}+{}={}".format(n1,n2,n1+n2))
+
+and,or,not
+>>>not True and False or not False 
+name=input()
+int(),float(),str()
+num=int(input())
+
+input 에 커서내용 넣을수 있음.
+
+주석: #, """dkjf"""
+
+print(green)
+print(green[0])
+print(green[12])
+print(green[0:2])
+print(green[len(green)-1])
+green[시작값:마지막값-1:증가값]
+문자열은 상수라 수정이 안됨.
+
+문자열은 끝에서부터 -1 부터 시작한다. 
+print(green[::-1])
+green.count() 개수 셈.
+
+import random
+char=random.choice(green)
+print(char)
+
+list 참조변수
+슬라이싱 연산. 
+
+list 는 상수가 아님.
+
+차이 있음.
+mylist[0:2] = 'ddd'
+mylist[0:2] = ['ddd']
+
+list()
+list(range(1,7,1))
+
+튜플: (), 데이터 수정 안됨., 한번에 여러개 return
+
+tuple(st1)
+list(tp2)
+
+sequence 자료형: 값들이 연속적으로 저장된 자료형
+인덱싱, 슬라싱 연산 가능
+문자열/리스트/튜플/range
+
+in/not in 연산자
+
+-------
+숫자 1를 입력받기
+숫자2를 입력받기
+입력받은 2개의 숫자를 이용해서 구구단 문제 내기
+정답인지 아닌지 판단하기
+
+조건문. 
+if, :, elif, else, 
+
+a = [0,10,20,30,40,50,60,70,80,90]
+print(a[4:-1]) # 
+
+--주사위 굴리기
+randint(1,6) 
+
+국어, 랜덤 , 
