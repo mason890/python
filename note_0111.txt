@@ -10,6 +10,7 @@ int,float,str,bool
 +-*/, //, %, +=
 = 대입연산자 오른쪽을 왼쪽에
 += 복합대입연산자
+파이썬 ++ 지원안함
 print(10,'hi') 쉼표로 구분
 @@@ print("출력{}싶은{}내용".format(a,b))
 print("{}+{}={}".format(n1,n2,n1+n2))
@@ -78,4 +79,10 @@ print(a[4:-1]) #
 --주사위 굴리기
 randint(1,6) 
 
+built in function
+import function
+pip 로 가져와서 설치해서 사용하는 function
+
+
 국어, 랜덤 , 
+
