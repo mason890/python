@@ -1,0 +1,48 @@
+[중급] '파이썬 코딩의 기술' 책 추천
+
+dir(a)
+help(random.randint)
+dir(__builtins__)
+print(help(reversed))
+
+print(st[::-1])
+
+print 이어서 쓰기 print('',end='') ,end='', end=', ' 사용
+
+파이썬은 and 연산자 사용한다. #'&' 사용안함
+
+for 반복 횟수가 정해진 반복문
+
+for 변수 in range(1,100,1): # 시작값, 종료값-1, 증가값
+for _ in range(5): # 변수 필요없을때 _도 가능
+
+{:0>2}.format
+2자리
+
+num1, num2 = num2, num1 # 자리변환
+#     temp = num1
+#     num1 = num2
+#     num2 = temp
+
+for i in range(len(name)) :
+    print(name[i])
+같은 결과임.
+for i in name :
+    print(i)
+
+------
+예제
+
+num = 10
+while num<10 :
+    print(num)
+    num -= num
+
+while True :
+    print
+    if ...:
+        break
+
+for 는 자동 +1 된다.
+while 은 +1 해줘야 한다.
+
