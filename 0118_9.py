@@ -22,7 +22,7 @@
 #         if i == out :
 #             print('*')
 #         else:
-#             print(' ')
+#             print(' ',end=' ')
 
 st = [5,5,5]
 print(st)
