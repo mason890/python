@@ -21,5 +21,3 @@
 # for i in dt:
 
 
-print(dir(list))
-print(help(list.reverse))

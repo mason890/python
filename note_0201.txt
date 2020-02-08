@@ -88,7 +88,7 @@ str 메소드
 'split',문자열 분리하기 -> 리스트 'join' 함께 사용함
 
 'splitlines', 
-'startswith', 특정 ㅓㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+'startswith', 특정 
 'strip',문자열 양폎 공백 삭제하기
 'swapcase', 'title', 'translate', 
 'upper',
@@ -120,7 +120,8 @@ def show_avg(*score):
 키워드 변수가 사용된 가변 함수
 def show_info(**info):
 
-지역 영역
+파이썬은 동적언어이므로
+함수의 지역 영역
 전역 영역
 내장 영역 __builtin__
 
@@ -133,10 +134,64 @@ def show_info(**info):
 정조
 김정호
 
-2차원 리스테 저장
+2차원 리스트 저장
 
 점수 입력받는 함수 만듬. 5명. 
 
 평균계산해서 
 한사람 평균
 1등 찾아내는 함수
+
+
+
+언패킹
+st = [24,2,44]
+r = func(*st)
+
+키워드 인수 언패킹
+func(**dc)
+
+map 함수
+def func(myst):
+    t = []
+    for i in myst:
+        t.append(pow(2,i))
+    return t
+st = list(range(1,6))
+print(st)
+print(func(st))
+
+
+def func(a):
+    return pow(2,a)
+st = [1,2,3,4,5]
+r = list(map(func,st))
+print(r)
+
+람다
+lambda 인수: 표현식
+
+a**2  => a의 제곱
+
+
+dir (dict)
+'clear', 딕셔너리의 모든 키-값을 삭제
+'copy', 
+'fromkeys', 
+'get(key)', 해당 키의 값을 반환
+'items', for k,v in dc.items(): print(k,v)
+'keys',  for i in dc.keys(): print(dc.get(i))
+'pop(key)', 해당 키와 값을 삭제하고 값을 반환
+'popitem', 마지막 키와 값을 삭제하고 키와 값을 튜플로 반환
+'setdefault', 
+'update(key=values)', 
+'values' for i in dc.values(): print(i)
+
+'add', 'clear', 'copy', 'difference', 
+'difference_update', 'discard', 
+'intersection', 
+'intersection_update', 'isdisjoint', 'issubset', 
+'issuperset', 'pop', 'remove', 'symmetric_difference', 
+'symmetric_difference_update', 
+'union', 
+'update'
