@@ -122,6 +122,12 @@ for i in fst :
     i.show_info()
 
 
+
+for i in range(len(fst)):
+    fst[i].name ='김동백'
+
+for i in fst :
+    i.show_info()
 # class FriendManager :
 #     fst = []
 #     def add_friend(self,f):
